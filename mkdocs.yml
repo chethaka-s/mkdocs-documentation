@@ -1,0 +1,20 @@
+
+site_name: XAPI doc
+site_url: https://x-venture.io/
+theme:
+  name: material
+  features: search.suggest
+            search.highlight
+            conten.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+    - Home: index.md
+    - About: about.md
+    - Getting Started : gettingStarted.md
+    - 'Outsourcing links': 'https://google.com/'
+    - Navigation: nav.md
