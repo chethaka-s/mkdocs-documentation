@@ -1,6 +1,10 @@
+---
+status: new
+---
 # About 
 Confluence
 ---
+
 We need to explore markdown plugins that would allow us to pull content directly from the markdown files in GitHub and publish them in Confluence. However, none of the plugins so far is meeting the requirements, e.g., they don’t update the content automatically when it changes in GitHub, instead appearing in a box. When creating documentation for closed-source products, it would be required to generate a unique PDF for each customer with the free and paid features their implementation includes.
 
 Github Pages

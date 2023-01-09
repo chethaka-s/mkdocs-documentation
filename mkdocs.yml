@@ -3,15 +3,18 @@ site_name: XAPI doc
 site_url: https://x-venture.io/
 theme:
   name: material
-  features: search.suggest
-            search.highlight
-            conten.tabs.link
+  logo: assets/xv-logo.png
+extra_css: 
+  - stylesheets/extra.css
+  
+
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
 
+#  features: header.autohide
 nav:
     - Home: index.md
     - About: about.md
