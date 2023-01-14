@@ -1,23 +1,58 @@
 
-site_name: XAPI doc
-site_url: https://x-venture.io/
+site_name: XAPI Documentation
+site_url: https://dev.xapihub.io/
 theme:
   name: material
   logo: assets/xv-logo.png
+  favicon: assets/favicon.ico
+  font:
+    text: Inter
+  features:
+    - navigation.top
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
 extra_css: 
   - stylesheets/extra.css
-  
 
-
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/xventure.io/
+    - icon: fontawesome/brands/github
+      link: https://www.x-venture.io/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/x-venture/
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
 
-#  features: header.autohide
+copyright: Copyright &copy; 2023 X-Venture. All rights reserved
+
+
 nav:
-    - Home: index.md
-    - About: about.md
-    - Getting Started : gettingStarted.md
-    - 'Outsourcing links': 'https://google.com/'
-    - Navigation: nav.md
+    - Get Started : getstarted.md
+    - Design APIs : designapis.md
+    - Collaboration : collaboration.md
+    - Govern : govern.md
+    - Administration : administration.md
+  
